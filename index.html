@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>project-name-here</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <img
+            class="goal-rush-img"
+            src="/images/goal-rush.png"
+            alt="goal-rush-english-premier-league-game-tracker"
+          />
+        </header>
+        <!-- MODAL -->
+        <section class="modal-section">
+          <div class="btn-box">
+            <button id="select-home-team-btn" class="select-home-team-btn">
+              Select Home Team
+            </button>
+          </div>
+
+          <div class="custom-select-1" id="custom-select-1">
+            <!-- JAVASCRIPT -->
+          </div>
+
+          <section class="output" id="output">
+            <div class="homeOutput" id="homeOutput"></div>
+            <div class="homeScore" id="homeScore">0</div>
+            <div class="vs-box">VS</div>
+            <div class="awayScore" id="awayScore">0</div>
+            <div class="awayOutput" id="awayOutput"></div>
+          </section>
+
+          <!-- away team -->
+          <div class="btn-box">
+            <button id="select-away-team-btn" class="select-away-team-btn">
+              Select Away Team
+            </button>
+          </div>
+          <div class="custom-select-2" id="custom-select-2">
+            <!-- JAVASCRIPT -->
+          </div>
+        </section>
+        <!-- END OF MODAL -->
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
